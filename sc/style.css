@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Tablet dan perangkat seluler */
+@media screen and (max-width: 768px) {
+    /* Navigasi */
+    .navigasi {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .navigasi a {
+        margin: 0 10px; /* Mengurangi margin agar ukuran navigasi lebih sesuai */
+    }
+
+    /* Home container */
+    .container {
+        height: auto; /* Atur tinggi sesuai konten */
+    }
+
+    /* News section */
+    .portofolio-section .card .card-img-top {
+        height: 100px; /* Ubah tinggi gambar di bagian news */
+    }
+}
+
+
+body {
+    font-family: "Kavoon", serif;
+    font-size: 12px;
+}
+
+.navigasi {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.navigasi a {
+    margin-left: 25px ;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-align: center;
+    width: 90%;
+}
+
+/* home container */
+.container {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
+
+/* about container */
+
+
+
+/* news container */
+.news .card {
+align-items: center;
+justify-content: center;
+}
+
+/* footer */
+footer {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
