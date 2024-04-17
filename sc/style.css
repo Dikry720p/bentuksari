@@ -11,12 +11,12 @@
     }
 
     .navigasi a {
-        margin: 0 10px; /* Mengurangi margin agar ukuran navigasi lebih sesuai */
+        margin: 0 10px; 
     }
 
     /* Home container */
     .container {
-        height: auto; /* Atur tinggi sesuai konten */
+        height: auto;
     }
 
     /* News section */
@@ -81,15 +81,14 @@ body {
 }
 
 
-
-/* about container */
-
-
-
 /* news container */
-.news .card {
-align-items: center;
-justify-content: center;
+#news .container {
+    display: flex;
+}
+
+.card {
+    margin-top: 10vh ;
+    margin-bottom: 10vh;
 }
 
 /* footer */
