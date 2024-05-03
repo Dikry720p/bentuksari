@@ -1,0 +1,51 @@
+/* Mengatur body */
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/asset/logo.png'); /* Ubah path gambar sesuai dengan kebutuhan */
+    background-repeat: no-repeat;
+    background-position: center; /* Posisi gambar di tengah-tengah body */
+}
+/* CSS untuk gambar */
+img {
+    max-width: 100%; 
+    max-height: 100vh; 
+    width: auto;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+.container {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 95%;
+    background-color: #5882c10b;
+    border: 3px solid #5882c15a;
+    backdrop-filter: blur(15px);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    max-width: 100%; 
+    overflow: hidden; 
+}
+.container .col-md-4 {
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+form {
+    margin: 15px;
+}
+input {
+    width: 100%;
+}
+button {
+    width: 100%;
+}

@@ -47,7 +47,10 @@ body {
 }
 
 /* NAVIGASI */
-.navigasi {
+nav {
+    display: flex;
+}
+nav .navigasi {
     align-items: center;
     justify-content: center;
     text-align: center;
